@@ -1,8 +1,8 @@
-import Button from "../../components/Buttons";
-import {useNavigate} from 'react-router-dom';
+import Button from "../../components/Buttons/index";
+import { useNavigate } from 'react-router-dom';
 
 
-function Home (){
+const Home = () => {
     const navigate = useNavigate();
 
     const onClickButton = () => {
@@ -10,7 +10,7 @@ function Home (){
     }
     
     return(
-        <Button onClick={onClickButton} text= 'Quizz BS' />
+        <Button onClick={() => onClickButton('/game')} text= 'Start Quizz' />
     )
     
 }
