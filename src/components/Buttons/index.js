@@ -1,8 +1,11 @@
 import './styles.css';
 
-function Button ({text, OnClick}){
+function Button ({text, onClick}){
     return (
-        <button onClick={OnClick} className='boton'>{text}</button>
+        <section className='container_boton'>
+            <button onClick={onClick} className='boton'>{text}</button>
+        </section>
+        
     )
 }
 export default Button;

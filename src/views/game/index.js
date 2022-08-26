@@ -1,5 +1,7 @@
 import Button from '../../components/Buttons/index';
+import "./styles.css";
 import { useNavigate } from 'react-router-dom';
+import Loading from "../../assets/loading.gif"
 
 const Game = () => {
   const navigate = useNavigate();
@@ -10,8 +12,13 @@ const Game = () => {
 
   return (
     <>
-      <h1>Página de Game</h1>
-      <Button onClick={onClickButton} text='Ir a Home' />
+    <div className='container__game'>
+      <div className='container__game-btn'>
+        <Button onClick={onClickButton} text='Home' />
+      </div>
+        <h1 className='game__txt'>GAME</h1>
+        <img src={Loading} alt="loading logo from a video game"/>
+    </div>
     </>
   );
 };

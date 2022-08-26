@@ -1,0 +1,17 @@
+.container__game-btn{
+    margin-top: 50px;
+}
+.container__game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__txt{
+    font-family: zighead;
+    font-size: 150px;
+    text-align: center;
+    color: rgb(94,21,245);
+    margin-top: 12px;
+}
