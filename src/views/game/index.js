@@ -6,15 +6,15 @@ import Loading from "../../assets/loading.gif"
 const Game = () => {
   const navigate = useNavigate();
 
-  const onClickButton = () => {
-    navigate('/');
+  const onClickButton = (url) => {
+    navigate(url);
   };
 
   return (
     <>
     <div className='container__game'>
       <div className='container__game-btn'>
-        <Button onClick={onClickButton} text='Home' />
+        <Button onClick={() => onClickButton('/')} text= 'Home' />
       </div>
         <h1 className='game__txt'>GAME</h1>
         <img src={Loading} alt="loading logo from a video game"/>

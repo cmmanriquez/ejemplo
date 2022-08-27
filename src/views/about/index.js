@@ -8,14 +8,14 @@ import { useNavigate } from 'react-router-dom';
 const About = () => {
     const navigate = useNavigate();
 
-    const onClickButton = () => {
-        navigate('/');
+    const onClickButton = (url) => {
+        navigate(url);
     }
     
     return(
         <>
         <div className="container__about-btn">
-            <Button className="btn_about" onClick={() => onClickButton('/home')} text= 'Home' />
+            <Button className="btn_about" onClick={() => onClickButton('/')} text= 'Home' />
         </div>
         <h1 className="about__h1">ABOUT</h1>
         <div className="container__about-header">
