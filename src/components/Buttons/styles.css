@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap');
-.boton{
+.boton, .btn__send{
     background-color: black;
     color: white;
     font-size: 16;
@@ -10,7 +10,7 @@
     font-weight: 400;
     cursor: pointer;
 }
-.boton:hover{
+.boton:hover, .btn__send:hover{
     background-color: white;
     color: black;
 }

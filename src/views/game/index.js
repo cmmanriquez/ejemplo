@@ -29,7 +29,7 @@ const [questions, setQuestions] = useState([]);
         <Button className="link__active" onClick={() => onClickButton ('/game')} text= 'Game' />
         <Button onClick={() => onClickButton ('/about')} text= 'About' />
       </div>
-        <h1 className='game__h1'>HP GAME</h1>
+        <h1 className='game__h1'>GAME</h1>
         <div>
           <form>
             {
@@ -39,6 +39,9 @@ const [questions, setQuestions] = useState([]);
                         </div>
               })
             }
+            <div className='container__btn'>            
+              <button className='btn__send' type="button">Enviar</button>
+            </div>
           </form> 
         </div>
     </div>

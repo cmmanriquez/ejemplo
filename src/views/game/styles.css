@@ -19,3 +19,14 @@
     color: rgb(94,21,245);
     margin-top: 12px;
 }
+.container__btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 678px) {
+    .game__h1{
+        font-size: 100px;
+    }
+}
