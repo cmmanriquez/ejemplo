@@ -1,7 +1,14 @@
-.txt_index{
+.container__index-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.index__h1{
     font-family: zighead;
     font-size: 150px;
     text-align: center;
     color: rgb(94,21,245);
-    margin: 120px 0;
+    padding-top: 12px;
 }

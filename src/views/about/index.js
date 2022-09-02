@@ -15,7 +15,9 @@ const About = () => {
     return(
         <>
         <div className="container__about-btn">
-            <Button className="btn_about" onClick={() => onClickButton('/')} text= 'Home' />
+            <Button onClick={() => onClickButton ('/')} text= 'Home' />
+            <Button onClick={() => onClickButton ('/game')} text= 'Game' />
+            <Button onClick={() => onClickButton ('/about')} text= 'About' />
         </div>
         <h1 className="about__h1">ABOUT</h1>
         <div className="container__about-header">

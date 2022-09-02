@@ -1,5 +1,9 @@
 .container__game-btn{
-    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .container__game{
     display: flex;
@@ -8,7 +12,7 @@
     align-items: center;
 }
 
-.game__txt{
+.game__h1{
     font-family: zighead;
     font-size: 150px;
     text-align: center;

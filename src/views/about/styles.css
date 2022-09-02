@@ -8,18 +8,23 @@
     margin-top: 12px;
 }
 .container__about-btn{
-    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .container__about-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 .container__about-header p{
     width: 40%;
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 300;
     font-family: 'Inter', sans-serif;
     margin-right: 100px;
 }
